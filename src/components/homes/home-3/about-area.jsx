@@ -3,6 +3,7 @@ import Link from "next/link";
 import React,{useState} from 'react';
 import AngleArrow from '@/src/svg/angle-arrow';
 import VideoPopup from '@/src/modals/video-popup';
+
 // about img import here
 import about_img_1 from "@assets/img/about/home-3/shape-4.png";
 import about_img_2 from "@assets/img/about/home-3/img-1.jpg";
@@ -76,12 +77,13 @@ const AboutArea = ({about}) => {
                                 </span>
                                 <h3 className="tp-section-title">
                                 Discover the Complete Potential of Your <span className="title-color">Company with 
-</span> <br /> Digital Hub
+</span>  Digital Hub
                                 </h3> 
                             </div>
-                            <p className="text">
+                            <p className=" text d-flex align-items-center justify-content-center ">
 
-                            To revolutionize your company, Digital Hub provides a special combination of experience in web development, digital marketing, and online marketing. We're here to take your brand to new heights with committed assistance and creative solutions. Let's work together to write your success story.
+                            Digital Hub, rooted in the heart of Bangladesh since 2014, has emerged as a beacon of digital innovation, transforming the online landscape for businesses nationwide. Our journey began with a mission to harness the power of digital marketing, web development, and cutting-edge technology to fuel business growth and brand visibility. With a dedicated team of experts, we've crafted bespoke solutions that resonate with our diverse clientele, ranging from startups to established enterprises. At Digital Hub, we're not just a service provider; we're your strategic partner in the digital world, committed to your success with every click, code, and campaign. Join us as we continue to shape the future of digital excellence, making a mark both locally and globally.
+
                             </p>
                             <div className="tp-about-progressbar-inner d-flex flex-wrap pt-20">
                             {/* <div className="tp-about-3-progressbar d-flex align-items-center">
@@ -110,7 +112,7 @@ const AboutArea = ({about}) => {
                                 </div>
                             </div> */}
                             </div>
-                            <div className="tp-about-3-btn-inner d-flex flex-wrap">
+                            <div className="tp-about-3-btn-inner  d-flex  flex-wrap">
                             <div className="tp-about-btn ">
                                 <Link className="tp-btn" href="/about">Our Services 
                                     <i className="fa-regular fa-arrow-right-long"></i>
