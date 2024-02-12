@@ -2,15 +2,19 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-import AngleArrow from '@/src/svg/angle-arrow'; 
+
+import AngleArrow from '@/src/svg/angle-arrow';
 import LineArrowFive from '@/src/svg/line-arrow-5';
+
 
 import feature_img_1 from "@assets/img/feature/img-1.jpg";
 import feature_img_2 from "@assets/img/feature/img-2.jpg";
 import feature_img_3 from "@assets/img/feature/img-3.jpg";
-import shape_1 from "@assets/img/feature/shape-1.png"; 
-import shape_2 from "@assets/img/feature/shape-2.png"; 
-import shape_3 from "@assets/img/feature/img-shape.png"; 
+import shape_1 from "@assets/img/feature/shape-1.png";
+import shape_2 from "@assets/img/feature/shape-2.png";
+import shape_3 from "@assets/img/feature/img-shape.png";
+
+
 
 
 const feature_content = {
@@ -19,45 +23,47 @@ const feature_content = {
             id: 1,
             img: feature_img_1,
             title: "Our mission",
-            description: <>As far as we might be concerned <br /> making an extraordinary ad</>,
+            description: <>To revolutionize digital landscapes by empowering businesses with innovative solutions. <br />We strive for growth, success, and client satisfaction.</>,
         },
         {
             id: 2,
             img: feature_img_2,
             title: "About History",
-            description: <>As far as we might be concerned <br /> making an extraordinary ad</>,
+            description: <>Since 2014, Digital Hub has reshaped digital marketing, blending innovation with  excellence to lead <br />in the ever-evolving digital landscape.</>,
         },
         {
             id: 3,
             img: feature_img_3,
-            title: "Our Partners",
-            description: <>As far as we might be concerned <br /> making an extraordinary ad</>,
+            title: "Our Values",
+            description: <>Integrity, Innovation, and Customer Focus. We champion these core values to drive success,<br /> inspire our team, and deliver excellence.</>,
         },
     ],
-    
+   
 }
 const {feature_data} =  feature_content
 
 
+
+
 const FeatureArea = ({about}) => {
     return (
-        <> 
+        <>
            <section className={`tp-feature-area ${about ? "feature-breadcrumb pb-100" : ""}`}>
-            {about ? null : 
+            {about ? null :
             <div className="tp-feature-shape">
                <Image src={shape_1} alt="theme-pure" />
-            </div> 
+            </div>
             }
             <div className="container container-large">
                <div className="row align-items-center">
                   <div className="col-lg-6">
                      <div className="tp-feature-title-wrapper">
                         <span className="tp-section-title__pre">
-                           feature <span className="title-pre-color">IT Solutions</span>
+                           feature <span className="title-pre-color">Digital Solutions</span>
                            <AngleArrow />
                         </span>
-                        <h3 className="tp-section-title">We’ve Been Thriving In <span className="title-color">38 Years</span>
-                           <span className="title-right-shape"> 
+                        <h3 className="tp-section-title">We’ve Been Thriving In <span className="title-color">10 Years</span>
+                           <span className="title-right-shape">
                               <LineArrowFive />
                            </span>
                         </h3>
@@ -65,13 +71,12 @@ const FeatureArea = ({about}) => {
                   </div>
                   <div className="col-lg-6">
                      <div className="tp-feature-wrapper p-relative">
-                        <p>As the complexity of buildings to increase, the field of architecture <br />
-                         became multi-disciplinary with technological expertise.</p>
+                        <p>As the digital landscape evolves, the realm of digital marketing <br />  diversifies,  requiring a blend of creative and analytical prowess.</p>
                      </div>
                   </div>
                </div>
                <div className="row">
-                {feature_data.map((item, i)  => 
+                {feature_data.map((item, i)  =>
                     <div key={i} className="col-lg-4 col-md-6">
                         <div className="tp-feature-item-box p-relative wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
                         <div className="tp-feature-item p-relative mb-30">
@@ -88,7 +93,7 @@ const FeatureArea = ({about}) => {
                                 <div className="tp-feature-item-content">
                                     <h3 className="feature-title">
                                         <Link href="/about">{item.title}</Link>
-                                    <span> 
+                                    <span>
                                         <AngleArrow />                                
                                     </span>
                                     </h3>
@@ -100,13 +105,14 @@ const FeatureArea = ({about}) => {
                             <Link href="/about"><i className="fa-regular fa-arrow-right"></i></Link>
                         </div>
                     </div>
-                </div> 
-                )} 
+                </div>
+                )}
                </div>
             </div>
-         </section> 
+         </section>
         </>
     );
 };
+
 
 export default FeatureArea;

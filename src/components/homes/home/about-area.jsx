@@ -16,30 +16,32 @@ const about_data = [
     {
         id:1,
         img: about_img_1,
-        title: "Business services",
-        description: <>As far as we might be concerned <br /> making an extraordinary advanc
-        <br /> ed experience is a blend bet</>,
+        title: "Web Development",
+        description: <>Our web development services are designed to create dynamic, responsive,  <br />  and user-friendly websites that reflect your brand's
+        <br />  ethos and meet your business objectives.</>,
     },
     {
         id:2,
         img: about_img_2,
-        title: "Education and training",
-        description: <>As far as we might be concerned <br /> making an extraordinary advanc
-        <br /> ed experience is a blend bet</>,
+        title: "Software Development",
+        description: <>We specialize in developing high-quality software  <br /> solutions that streamline operations, enhance 
+        <br /> productivity, and drive business growth.</>,
     },
     {
-        id:2,
+        id:3,
         img: about_img_3,
-        title: "Artificial intelligence",
-        description: <>As far as we might be concerned <br /> making an extraordinary advanc
-        <br /> ed experience is a blend bet</>,
+        title: "Custom Software Development",
+        description: <>Tailored software solutions that cater specifically to your business's unique  <br /> requirements
+
+        <br /> ensuring efficiency and competitive advantage.</>,
     },
     {
-        id:1,
+        id:4,
         img: about_img_1,
-        title: "Business services",
-        description: <>As far as we might be concerned <br /> making an extraordinary advanc
-        <br /> ed experience is a blend bet</>,
+        title: "App Development ",
+        description: <>From conceptualization to launch, we develop mobile applications <br />  that offer seamless 
+
+        <br />user experiences on both Android and iOS platforms.</>,
     },
     {
         id:2,

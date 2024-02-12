@@ -128,7 +128,7 @@ const HeaderOne = () => {
                                  <button onClick={() => setSearchOpen(true)}><i className="fa-regular fa-magnifying-glass"></i></button>
                               </div>
                                  <div className="tp-header-btn d-none d-xl-block pl-40">
-                                    <Link className="tp-btn" href="/contact">Get Started Today</Link>
+                                    <Link className="tp-btn" href="/contact">Get Started</Link>
                                  </div>
                               </div>
                            </div>

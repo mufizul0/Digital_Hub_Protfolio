@@ -35,20 +35,20 @@ const slider_data = [
   {
     id: 1,
     bg_img: "/assets/img/hero/hero-2.jpg",
-    sub_title_1: "best",
+    sub_title_1: "digital hub",
     sub_title_2: "it solutions",
     hero_title_1: "platform of",
-    hero_title_2: "Tech",
-    hero_support: "support",
+    hero_title_2: "Digital",
+    hero_support: "Innovation",
   },
   {
     id: 2,
     bg_img: "/assets/img/hero/hero-1.jpg",
-    sub_title_1: "best",
+    sub_title_1: "Digital",
     sub_title_2: "it solutions",
-    hero_title_1: "IT service & ",
-    hero_title_2: "Tech",
-    hero_support: "Bundles",
+    hero_title_1: "Digital ",
+    hero_title_2: "Marketing",
+    hero_support: "& SEO",
   },
   {
     id: 3,
@@ -164,7 +164,7 @@ const HeroSlider = () => {
 
           <div className="tp-hero-bottom">
             <div className="tp-hero-experince">
-              <span className="year"> 13
+              <span className="year"> 10
                 <br /> <i className="experince">Years of Experince</i>
               </span>
             </div>
@@ -178,15 +178,20 @@ const HeroSlider = () => {
               <Image src={service_shape} alt="theme-pure" />
             </div>
             <p>
-              Our company provides a full range of <span>services</span> for the
+            Since our establishment over 2014 years ago <span>we've specialized in</span> constructing and maintaining
+               <br />
+               private houses and cottages.
+
+           {/* <p>
+               Our company provides a full range of <span>services</span> for the
               cons <br />
-              private houses and cottages since 19
+              private houses and cottages since 19  
+ </p> */}
             </p>
             <div className="tp-hero-service-quote">
               <Image src={service_quote} alt="theme-pure" />
             </div>
           </div>
-          
         </div>
       </section>
 
