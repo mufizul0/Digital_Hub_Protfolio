@@ -70,18 +70,21 @@ const AboutArea = ({about}) => {
                         <div className="tp-about-3-wrapper">
                             <div className="tp-about-3-title-wrapper"> 
                                 <span className="tp-section-title__pre">
-                                    about <span className="title-pre-color">IT Solutions</span>
+                                About <span className="title-pre-color"> Digital Hub 
+</span>
                                     <AngleArrow /> 
                                 </span>
                                 <h3 className="tp-section-title">
-                                    Best Digital <span className="title-color">Technology</span> <br /> Agency For People
+                                Discover the Complete Potential of Your <span className="title-color">Company with 
+</span> <br /> Digital Hub
                                 </h3> 
                             </div>
                             <p className="text">
-                                Transmax is the world’s driving worldwide coordinations supplier — we <br /> uphold industry and exchange the worldwide trade of merchandise <br /> through land transport.
+
+                            To revolutionize your company, Digital Hub provides a special combination of experience in web development, digital marketing, and online marketing. We're here to take your brand to new heights with committed assistance and creative solutions. Let's work together to write your success story.
                             </p>
                             <div className="tp-about-progressbar-inner d-flex flex-wrap pt-20">
-                            <div className="tp-about-3-progressbar d-flex align-items-center">
+                            {/* <div className="tp-about-3-progressbar d-flex align-items-center">
                                 <div className="circular tl-progress"> 
                                     <CircularProgressbar
                                     value={percentage}
@@ -93,8 +96,8 @@ const AboutArea = ({about}) => {
                                 <div className="tp-about-3-progressbar-title">
                                     <p>Business <br /> Strategy Growth</p>
                                 </div>
-                            </div>
-                            <div className="tp-about-3-progressbar d-flex align-items-center">
+                            </div> */}
+                            {/* <div className="tp-about-3-progressbar d-flex align-items-center">
                                 <div className="circular tl-progress"> 
                                     <CircularProgressbar
                                     value={percentage2}
@@ -105,15 +108,15 @@ const AboutArea = ({about}) => {
                                 <div className="tp-about-3-progressbar-title">
                                     <p>Health Valuable <br /> Ideas</p>
                                 </div>
-                            </div>
+                            </div> */}
                             </div>
                             <div className="tp-about-3-btn-inner d-flex flex-wrap">
                             <div className="tp-about-btn ">
-                                <Link className="tp-btn" href="/about">Our History 
+                                <Link className="tp-btn" href="/about">Our Services 
                                     <i className="fa-regular fa-arrow-right-long"></i>
                                 </Link>
                             </div>
-                            <div className="tp-about-3-year">
+                            {/* <div className="tp-about-3-year">
                                 <p>
                                     BRENDON GARREY
                                     <br />
@@ -121,7 +124,7 @@ const AboutArea = ({about}) => {
                                         mayor, since 21st Oct , 2019
                                     </span>
                                 </p>
-                            </div>
+                            </div> */}
                             </div>
                         </div>
                     </div>
