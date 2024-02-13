@@ -106,10 +106,10 @@ const ServiceArea = () => {
                         <div className="col-lg-12">
                            <div className="tp-service-title-wrapper text-center">
                               <span className="tp-section-title__pre">
-                                 service <span className="title-pre-color">IT Solutions</span> 
+                                Digital Hub <span className="title-pre-color">All services</span> 
                                  <AngleArrow />                                 
                               </span>
-                              <h3 className="tp-section-title">All Professional <i>IT Solutions</i> & Services
+                              <h3 className="tp-section-title"> <i> All </i>   Services
                                  <span className="title-center-shape"> 
                                     <LineArrowTwo />
                                  </span> 
