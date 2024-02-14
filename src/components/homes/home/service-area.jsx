@@ -190,10 +190,10 @@ const ServiceArea = () => {
                            <div className="tp-fun-fact-content">
                               <div className="tp-fun-fact-title-wrapper">
                                  <span className="tp-section-title__pre">
-                                    service <span className="title-pre-color">IT Solutions</span> 
+                                    Digital Hub <span className="title-pre-color"> All Types of IT Solutions</span> 
                                     <AngleArrow />
                                  </span>
-                                 <h3 className="tp-section-title">Tech Change The World
+                                 <h3 className="tp-section-title">We take digital experience to the next level
                                     <span className="title-left-shape"> 
                                     <LineArrowTwo />
                                     </span>

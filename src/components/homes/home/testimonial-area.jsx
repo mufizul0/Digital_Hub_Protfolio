@@ -36,66 +36,49 @@ const setting =  {
 
 const testimonial_data = [
     {
-        id: 1, 
-        avatar: user_1,
-        name: "Cameron Williamson",
-        title: "Ceo & Founder",
-        description: <>are so beguiled and demorali ed by the <br />
-        tech of pleasure of the moment Dislike <br />
-        men who are so beguiled and demoraliz <br />
-        worlds ed by the charms of </>,
+        "id": 1,
+        "avatar": user_1,
+        "name": "BCI Organization",
+        "title": "President",
+        "description": "Engagement with Victor Sekushenko from the sales team was seamless. Dmitry Raituzov's development team was exceptional, adhering to specifications and maintaining regular communication. The resulting product exhibited high quality, flexibility, and cost-effectiveness."
     },
     {
-        id: 2, 
-        avatar: user_2,
-        name: "Leslie Alexander",
-        title: "Ceo & Founder",
-        description: <>are so beguiled and demorali ed by the <br />
-        tech of pleasure of the moment Dislike <br/>
-        men who are so beguiled and demoraliz <br/>
-        worlds ed by the charms of </>,
+        "id": 2,
+        "avatar": user_2,
+        "name": "Mr. Md. Khayer Mia",
+        "title": "CEO",
+        "description": "Demoralized by fleeting pleasures, yet seeking enduring solutions.I am very satisfied with our engagement and would consider working together on future projects too. I appreciate their promptness, quality of work, IT expertise and would recommend their services"
     },
     {
-        id: 3, 
-        avatar: user_3,
-        name: "Savannah Nguyen",
-        title: "Ceo & Founder",
-        description: <>are so beguiled and demorali ed by the <br />
-        tech of pleasure of the moment Dislike <br/>
-        men who are so beguiled and demoraliz <br/>
-        worlds ed by the charms of </>,
+        "id": 3,
+        "avatar":user_3,
+        "name": "Narayan Chandra Ghos (Kajal)",
+        "title": "Ceo & Founder",
+        "description": "Digital Hub's professionalism and dedication ensured timely project completion. Grateful for their contributions and eager to continue our partnership. It is rare to find a service provider with such professional consistency - they are a valued service provider to our business! CEO,"
     },
     {
-        id: 4, 
-        avatar: user_1,
-        name: "Cameron Williamson",
-        title: "Ceo & Founder",
-        description: <>are so beguiled and demorali ed by the <br />
-        tech of pleasure of the moment Dislike <br/>
-        men who are so beguiled and demoraliz <br/>
-        worlds ed by the charms of </>,
-     },
-    {
-        id: 5, 
-        avatar: user_2,
-        name: "Leslie Alexander",
-        title: "Ceo & Founder",
-        description: <>are so beguiled and demorali ed by the <br />
-        tech of pleasure of the moment Dislike <br/>
-        men who are so beguiled and demoraliz <br/>
-        worlds ed by the charms of </>,
+        "id": 4,
+        "avatar": user_1,
+        "name": "Mithu Sir",
+        "title": "Ceo & Founder",
+        "description": "Kudos to Digital Hub for their outstanding work on our website. They stayed focused, responsive, and within budget throughout the process. Highly recommend their services."
     },
     {
-        id: 6, 
-        avatar: user_3,
-        name: "Savannah Nguyen",
-        title: "Ceo & Founder",
-        description: <>are so beguiled and demorali ed by the <br />
-        tech of pleasure of the moment Dislike <br/>
-        men who are so beguiled and demoraliz <br/>
-        worlds ed by the charms of </>,
+        "id": 5,
+        "avatar": user_2,
+        "name": "Mr. Md. Mafuzur Rahman",
+        "title": "Founder",
+        "description": "Digital Hub transformed our website into an impressive platform, surpassing expectations. Their attentiveness and efficiency resolved any issues swiftly. Excited for future collaborations."
     },
+    {
+        "id": 6,
+        "avatar": user_3,
+        "name": "Dr. Delowar Hossain Raj",
+        "title": "Ceo & Founder",
+        "description": "Digital Hub consistently delivers professional and reliable IT services. Their expertise and commitment were evident in the successful completion of multiple projects. Highly recommend their services."
+    }
 ]
+
 
 const TestimonialArea = () => {    
 
@@ -118,8 +101,8 @@ const TestimonialArea = () => {
                            </span>
                            <AngleArrow /> 
                         </span>
-                        <h3 className="tp-section-title">All Professional <span className="title-color">Testimonial</span>
-                           & Feedback
+                        <h3 className="tp-section-title">All <span className="title-color"> Services  </span>
+                           Happy Users Feedback
                            <span className="title-center-shape"> 
                                  <LineArrowTwo />
                            </span>

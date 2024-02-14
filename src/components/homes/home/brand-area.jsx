@@ -41,6 +41,8 @@ const BrandArea = () => {
         e.clientY - (r.top + Math.floor(r.height / 2))
       );
     };
+
+     
   
     const handleMouseLeave = () => {
       mouseRef.current.style.setProperty('--x', 1);

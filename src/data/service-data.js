@@ -111,11 +111,11 @@ const service_data = [
 
         </>,        
     },
+
     {
         id: 10, 
         alphabet: "I",
-        title: <>Bulk 
-
+        title: <>Bulk ,
         <br /> SMS</>,
         img: service_img_2,
         description: <>Reach out to a wide audience instantly with our bulk SMS services, ideal for promotions, alerts, and updates.

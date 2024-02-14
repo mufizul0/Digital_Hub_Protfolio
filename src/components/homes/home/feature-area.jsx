@@ -14,9 +14,6 @@ import shape_1 from "@assets/img/feature/shape-1.png";
 import shape_2 from "@assets/img/feature/shape-2.png";
 import shape_3 from "@assets/img/feature/img-shape.png";
 
-
-
-
 const feature_content = {
     feature_data: [
         {

@@ -28,7 +28,6 @@ const HomeOne = () => {
         <SliderArea />
         <FaqArea />
         <BlogArea />
-      
         <Footer />
       </main>
     </>

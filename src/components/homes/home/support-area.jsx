@@ -6,15 +6,16 @@ import React from 'react';
 const support_content = [
     {
         id: 1, 
-        count: 8, 
+        count: 24, 
         symbol: "hr",
         cls: "fadeLeft",
         title: "Quick Result",
-        info: <>Average time to resolve <br /> cyber attack.</>
+        info: <>Average time to resolve <br />cyber attack.</>
     },
+
     {
         id: 2, 
-        count: 3, 
+        count: 24, 
         symbol: "hr",
         cls: "",
         title: "Quick Reply",
@@ -22,7 +23,7 @@ const support_content = [
     },
     {
         id: 3, 
-        count: 94, 
+        count: 95, 
         symbol: "%",
         cls: "fadeRight",
         title: "Quick Response",
